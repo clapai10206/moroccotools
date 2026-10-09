@@ -1,3 +1,4 @@
+import { Analytics } from "@vercel/analytics/next"
 import type { Metadata, Viewport } from "next";
 import { Tajawal } from "next/font/google";
 import Script from "next/script";
@@ -59,6 +60,7 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
             crossOrigin="anonymous"
           />
         )}
+        <Analytics />
         <Header />
         <main className="flex-1">{children}</main>
         <Footer />
