@@ -51,6 +51,8 @@ export default function Footer() {
             ))}
             <li><Link href="/privacy" className="hover:text-white">سياسة الخصوصية</Link></li>
             <li><Link href="/contact" className="hover:text-white">اتصل بنا</Link></li>
+          <li><Link href="/about" className="hover:text-white transition-colors">من نحن</Link></li>
+          <li><Link href="/terms" className="hover:text-white transition-colors">شروط الاستخدام</Link></li>
           </ul>
         </div>
       </div>
